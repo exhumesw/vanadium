@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Updates</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link rel="shortcut icon" href="/Media/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/Media/favicon.ico" type="image/x-icon">
+</head>
+
+<body style="margin:20px;">
+
+<div style=" background-color: #eee;
+-webkit-border-radius: 10px;
+border: 1px solid #000;
+padding: 10px;"><span style="font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', sans-serif; font-size: 13px;">
+Check for Updates</span></div>
+
+<div style="padding:10px">
+	<span style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', sans-serif; font-size: 12px;">
+	
+<?php
+function beginsWith( $str, $sub ) {
+   return ( substr( $str, 0, strlen( $sub ) ) == $sub );
+}
+function endsWith( $str, $sub ) {
+return ( substr( $str, strlen( $str ) - strlen( $sub ) ) == $sub );
+}
+if(endsWith($_REQUEST['v'], '0.9'))
+echo "You're up to date. Thanks for checking!";
+else
+echo "Vanadium 0.9 is available! Links soon.";
+?>
+</span>	
+</div>
+
+</body>
+</html>

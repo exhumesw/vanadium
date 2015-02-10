@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Welcome to Vanadium</title>
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+    <link rel="stylesheet" href="speech.css">
+</head>
+
+<!--<body style="margin:20px;">-->
+<body>
+    <div style="width:25%;z-index:10;position: absolute;right: 530;top: 0;">
+    <p class="triangle-isosceles top glass" id="one">This is the Navagation/Search Bar. We use DuckDuckGo by default, since it <a href="https://duckduckgo.com/privacy">doesn't track its users</a>. You can change the homepage in Vanadium's preferences. (&#8984; + ,)</code>.</p>
+    </div>
+    <div style="width:25%;z-index:10;position: absolute;left: 0;bottom: 25;">
+<p class="triangle-isosceles left glass" id="two">This is Vanadium's bookmark shelf. It stays out of your way by being on the side. If you want, you can even make it hide (&#8984; + Shift + B)!</p>
+    </div>
+<table>
+<tr>
+<td width="33%">
+<!-- Welcome Section -->
+<p style="padding:20px;">
+<span style="font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', sans-serif; font-weight: 300; font-size: 25px;" id="three">
+Hey! Welcome to Vanadium.
+</span><br /><br />
+
+<span style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', sans-serif; font-size: 20px;" id="four">
+    Vanadium is the only web browser with privacy, style, and full customization in mind.<br /><br />If you'd like to have your homepage be something other than this, set it in your preferences.<br /><br /> If you're the type of person who likes to customize everything in your browser, you're in luck!
+</span>
+</p>
+</td>
+<td width="33%">
+    <!-- Image Section -->
+    <img style="padding:20px;" src="500.png" width="90%"/>
+</td>
+</tr>
+</table>
+<script>
+    var usragnt = window.navigator.userAgent;
+    //if your system version isn't Yosemite...
+    if (usragnt.toLowerCase().indexOf("10_8") >= 0||usragnt.toLowerCase().indexOf("10_9") >= 0){
+        //'LucidaGrande-Bold', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif
+        document.getElementById("one").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("two").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("three").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("four").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F67621E1A7AEEF100B65361 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F67621D1A7AEEF100B65361 /* Credits.rtf */; };
+		7F67624C1A7AF0AF00B65361 /* doc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F67624B1A7AF0AF00B65361 /* doc */; };
+		7F9ABFBF1A6F922B0048440B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFBE1A6F922B0048440B /* AppDelegate.m */; };
+		7F9ABFC11A6F922B0048440B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFC01A6F922B0048440B /* main.m */; };
+		7F9ABFC41A6F922B0048440B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFC31A6F922B0048440B /* Document.m */; };
+		7F9ABFC71A6F922B0048440B /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F9ABFC51A6F922B0048440B /* Document.xib */; };
+		7F9ABFC91A6F922B0048440B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9ABFC81A6F922B0048440B /* Images.xcassets */; };
+		7F9ABFCC1A6F922B0048440B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F9ABFCA1A6F922B0048440B /* MainMenu.xib */; };
+		7F9ABFD81A6F922B0048440B /* VanadiumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFD71A6F922B0048440B /* VanadiumTests.m */; };
+		7F9ABFE41A6FA1A10048440B /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFE31A6FA1A10048440B /* WAYTheDarkSide.m */; };
+		7F9ABFE61A6FA6FF0048440B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9ABFE51A6FA6FF0048440B /* WebKit.framework */; };
+		7F9ABFEC1A6FBDE30048440B /* VBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFEB1A6FBDE30048440B /* VBrowser.m */; };
+		7F9ABFF21A6FBEF60048440B /* DHSwipeClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFEF1A6FBEF60048440B /* DHSwipeClipView.m */; };
+		7F9ABFF31A6FBEF60048440B /* DHSwipeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9ABFF11A6FBEF60048440B /* DHSwipeIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F9ABFD21A6F922B0048440B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9ABFB01A6F922B0048440B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9ABFB71A6F922B0048440B;
+			remoteInfo = Vanadium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F67624A1A7AF04E00B65361 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				7F67624C1A7AF0AF00B65361 /* doc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F67621D1A7AEEF100B65361 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Vanadium/Credits.rtf; sourceTree = "<group>"; };
+		7F67624B1A7AF0AF00B65361 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		7F9ABFB81A6F922B0048440B /* Vanadium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vanadium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9ABFBC1A6F922B0048440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9ABFBD1A6F922B0048440B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F9ABFBE1A6F922B0048440B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F9ABFC01A6F922B0048440B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F9ABFC21A6F922B0048440B /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		7F9ABFC31A6F922B0048440B /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		7F9ABFC61A6F922B0048440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		7F9ABFC81A6F922B0048440B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F9ABFCB1A6F922B0048440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7F9ABFD11A6F922B0048440B /* VanadiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanadiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9ABFD61A6F922B0048440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9ABFD71A6F922B0048440B /* VanadiumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VanadiumTests.m; sourceTree = "<group>"; };
+		7F9ABFE21A6FA1A10048440B /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
+		7F9ABFE31A6FA1A10048440B /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
+		7F9ABFE51A6FA6FF0048440B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7F9ABFEA1A6FBDE30048440B /* VBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBrowser.h; sourceTree = "<group>"; };
+		7F9ABFEB1A6FBDE30048440B /* VBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBrowser.m; sourceTree = "<group>"; };
+		7F9ABFEE1A6FBEF60048440B /* DHSwipeClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeClipView.h; sourceTree = "<group>"; };
+		7F9ABFEF1A6FBEF60048440B /* DHSwipeClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeClipView.m; sourceTree = "<group>"; };
+		7F9ABFF01A6FBEF60048440B /* DHSwipeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeIndicator.h; sourceTree = "<group>"; };
+		7F9ABFF11A6FBEF60048440B /* DHSwipeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9ABFB51A6F922B0048440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9ABFE61A6FA6FF0048440B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9ABFCE1A6F922B0048440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9ABFAF1A6F922B0048440B = {
+			isa = PBXGroup;
+			children = (
+				7F67624B1A7AF0AF00B65361 /* doc */,
+				7F67621D1A7AEEF100B65361 /* Credits.rtf */,
+				7F9ABFE51A6FA6FF0048440B /* WebKit.framework */,
+				7F9ABFBA1A6F922B0048440B /* Vanadium */,
+				7F9ABFD41A6F922B0048440B /* VanadiumTests */,
+				7F9ABFB91A6F922B0048440B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9ABFB91A6F922B0048440B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFB81A6F922B0048440B /* Vanadium.app */,
+				7F9ABFD11A6F922B0048440B /* VanadiumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9ABFBA1A6F922B0048440B /* Vanadium */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFBD1A6F922B0048440B /* AppDelegate.h */,
+				7F9ABFBE1A6F922B0048440B /* AppDelegate.m */,
+				7F9ABFC21A6F922B0048440B /* Document.h */,
+				7F9ABFC31A6F922B0048440B /* Document.m */,
+				7F9ABFEA1A6FBDE30048440B /* VBrowser.h */,
+				7F9ABFEB1A6FBDE30048440B /* VBrowser.m */,
+				7F9ABFC81A6F922B0048440B /* Images.xcassets */,
+				7F9ABFCA1A6F922B0048440B /* MainMenu.xib */,
+				7F9ABFC51A6F922B0048440B /* Document.xib */,
+				7F9ABFED1A6FBED70048440B /* DH */,
+				7F9ABFE11A6FA1A10048440B /* WAYTheDarkSide */,
+				7F9ABFBB1A6F922B0048440B /* Supporting Files */,
+			);
+			path = Vanadium;
+			sourceTree = "<group>";
+		};
+		7F9ABFBB1A6F922B0048440B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFBC1A6F922B0048440B /* Info.plist */,
+				7F9ABFC01A6F922B0048440B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F9ABFD41A6F922B0048440B /* VanadiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFD71A6F922B0048440B /* VanadiumTests.m */,
+				7F9ABFD51A6F922B0048440B /* Supporting Files */,
+			);
+			path = VanadiumTests;
+			sourceTree = "<group>";
+		};
+		7F9ABFD51A6F922B0048440B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFD61A6F922B0048440B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F9ABFE11A6FA1A10048440B /* WAYTheDarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFE21A6FA1A10048440B /* WAYTheDarkSide.h */,
+				7F9ABFE31A6FA1A10048440B /* WAYTheDarkSide.m */,
+			);
+			path = WAYTheDarkSide;
+			sourceTree = "<group>";
+		};
+		7F9ABFED1A6FBED70048440B /* DH */ = {
+			isa = PBXGroup;
+			children = (
+				7F9ABFEE1A6FBEF60048440B /* DHSwipeClipView.h */,
+				7F9ABFEF1A6FBEF60048440B /* DHSwipeClipView.m */,
+				7F9ABFF01A6FBEF60048440B /* DHSwipeIndicator.h */,
+				7F9ABFF11A6FBEF60048440B /* DHSwipeIndicator.m */,
+			);
+			name = DH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9ABFB71A6F922B0048440B /* Vanadium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9ABFDB1A6F922B0048440B /* Build configuration list for PBXNativeTarget "Vanadium" */;
+			buildPhases = (
+				7F9ABFB41A6F922B0048440B /* Sources */,
+				7F9ABFB51A6F922B0048440B /* Frameworks */,
+				7F9ABFB61A6F922B0048440B /* Resources */,
+				7F67624A1A7AF04E00B65361 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vanadium;
+			productName = Vanadium;
+			productReference = 7F9ABFB81A6F922B0048440B /* Vanadium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F9ABFD01A6F922B0048440B /* VanadiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9ABFDE1A6F922B0048440B /* Build configuration list for PBXNativeTarget "VanadiumTests" */;
+			buildPhases = (
+				7F9ABFCD1A6F922B0048440B /* Sources */,
+				7F9ABFCE1A6F922B0048440B /* Frameworks */,
+				7F9ABFCF1A6F922B0048440B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9ABFD31A6F922B0048440B /* PBXTargetDependency */,
+			);
+			name = VanadiumTests;
+			productName = VanadiumTests;
+			productReference = 7F9ABFD11A6F922B0048440B /* VanadiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9ABFB01A6F922B0048440B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Exhume Software";
+				TargetAttributes = {
+					7F9ABFB71A6F922B0048440B = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C7VU6MFEZA;
+					};
+					7F9ABFD01A6F922B0048440B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7F9ABFB71A6F922B0048440B;
+					};
+				};
+			};
+			buildConfigurationList = 7F9ABFB31A6F922B0048440B /* Build configuration list for PBXProject "Vanadium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9ABFAF1A6F922B0048440B;
+			productRefGroup = 7F9ABFB91A6F922B0048440B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9ABFB71A6F922B0048440B /* Vanadium */,
+				7F9ABFD01A6F922B0048440B /* VanadiumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9ABFB61A6F922B0048440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9ABFC71A6F922B0048440B /* Document.xib in Resources */,
+				7F9ABFC91A6F922B0048440B /* Images.xcassets in Resources */,
+				7F9ABFCC1A6F922B0048440B /* MainMenu.xib in Resources */,
+				7F67621E1A7AEEF100B65361 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9ABFCF1A6F922B0048440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9ABFB41A6F922B0048440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9ABFE41A6FA1A10048440B /* WAYTheDarkSide.m in Sources */,
+				7F9ABFC41A6F922B0048440B /* Document.m in Sources */,
+				7F9ABFC11A6F922B0048440B /* main.m in Sources */,
+				7F9ABFEC1A6FBDE30048440B /* VBrowser.m in Sources */,
+				7F9ABFF21A6FBEF60048440B /* DHSwipeClipView.m in Sources */,
+				7F9ABFF31A6FBEF60048440B /* DHSwipeIndicator.m in Sources */,
+				7F9ABFBF1A6F922B0048440B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9ABFCD1A6F922B0048440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9ABFD81A6F922B0048440B /* VanadiumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F9ABFD31A6F922B0048440B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9ABFB71A6F922B0048440B /* Vanadium */;
+			targetProxy = 7F9ABFD21A6F922B0048440B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F9ABFC51A6F922B0048440B /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9ABFC61A6F922B0048440B /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		7F9ABFCA1A6F922B0048440B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9ABFCB1A6F922B0048440B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9ABFD91A6F922B0048440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F9ABFDA1A6F922B0048440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F9ABFDC1A6F922B0048440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Vanadium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F9ABFDD1A6F922B0048440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Vanadium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F9ABFDF1A6F922B0048440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VanadiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanadium.app/Contents/MacOS/Vanadium";
+			};
+			name = Debug;
+		};
+		7F9ABFE01A6F922B0048440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VanadiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanadium.app/Contents/MacOS/Vanadium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9ABFB31A6F922B0048440B /* Build configuration list for PBXProject "Vanadium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9ABFD91A6F922B0048440B /* Debug */,
+				7F9ABFDA1A6F922B0048440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9ABFDB1A6F922B0048440B /* Build configuration list for PBXNativeTarget "Vanadium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9ABFDC1A6F922B0048440B /* Debug */,
+				7F9ABFDD1A6F922B0048440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9ABFDE1A6F922B0048440B /* Build configuration list for PBXNativeTarget "VanadiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9ABFDF1A6F922B0048440B /* Debug */,
+				7F9ABFE01A6F922B0048440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9ABFB01A6F922B0048440B /* Project object */;
+}

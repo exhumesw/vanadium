@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Welcome to Vanadium!</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link rel="shortcut icon" href="/Media/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/Media/favicon.ico" type="image/x-icon">
+</head>
+
+<body style="margin:20px;">
+
+<div style=" background-color: #eee;-webkit-border-radius: 10px;border: 1px solid #000;padding: 10px;">
+<span style="font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px;">Welcome to Vanadium</span>
+</div>
+<div style="padding:10px">
+	<span style="font-family: 'LucidaGrande', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 12px;">
+
+<p>Welcome to <a href="http://www.exhume.us/Vanadium">Vanadium</a>, a multi-process browser focusing on staying a Webkit-based, feature packed web browser.</p>
+<?php
+if ( preg_match( '/alpha/', $_REQUEST['v'] )) { 
+echo "<em><strong>KEEP IN MIND THIS IS AN ALPHA BUILD! REPORT ALL BUGS, AND MAKE SURE TO CHECK OUT about:help FOR KNOWN ISSUES.<br />WE WILL BE UPDATING THE HELP PAGE WHENEVER WE GET THE CHANCE.</strong></em>"; 
+} 
+?>
+<p>Vanadium's mission statement is as follows:<br />
+<ul>
+	<li>Create a browser that <strong>respects your privacy</strong> as fully as possible.<ul><li>We accomplish this by removing the option of searching by using Google, and replacing it with Duck Duck Go.</li></ul></li>
+	<li>Create a browser that <strong>blah blah blah</strong> blah blah blah blah. We really need to finish these soon.</li>
+</ul>
+</p>
+<p>Like in Google Chrome or Chromium, each tab in Vanadium runs independently in a separate process, which means:<br/>
+<ul>
+<li>Increased performance.<br /><i>Slow page loads (especially due to plugins such as Flash) can't affect the responsiveness of the browser or other tabs.</i> 
+</li><br /><li>Increased stability.<br /> <i>Crashed pages can't bring down the browser or other tabs.</i></li>
+<br /><li>Decreased memory usage.<br /> <i>Once a tab is closed, the memory for that session is completely freed to the system.</i></li></ul></p>
+
+<!--	<p>A prime example is <i>parallel sessions</i>, which allow you to log into a site using different credentials in separate tabs at the same time. This new technology is woven throughout Stainless, from the private cookie storage system, to <i>session-aware bookmarks</i> that remember the session in which they were saved. I still believe this is a true browser innovation (and I'd love to see this implemented in Chrome).
+	 You can check it out by selecting <i>New Single Session Tab</i> from the File menu.</p>	-->
+</span>	
+</div>
+
+</body>
+</html>

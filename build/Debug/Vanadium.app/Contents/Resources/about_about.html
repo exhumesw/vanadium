@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>About: Index</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link rel="shortcut icon" href="/Media/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/Media/favicon.ico" type="image/x-icon">
+<style>
+	a{
+		color: black;
+	}
+</style>
+</head>
+
+<body style="margin:20px;">
+<div id="one">
+<div style=" background-color: #eee;-webkit-border-radius: 10px;border: 1px solid #000;padding: 10px;"><span style="font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', sans-serif; font-size: 13px;">
+List of Vanadium URLs</span></div>
+
+<div style="padding:10px">
+	<span style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', sans-serif; font-size: 12px;">
+	<ul id="one">
+		<li><strong>about:about</strong> - You are here.</li>
+		<li><strong>about:bookmarks</strong> - Explains Session Aware Bookmarks.</li>
+		<li><strong>about:help</strong> - idk.</li>
+		<li><strong>about:license</strong> - Licensing Information.</li>
+	</ul>
+</span>	
+</div>
+<script>
+    var usragnt = window.navigator.userAgent;
+    //if your system version isn't Yosemite...
+    if (usragnt.toLowerCase().indexOf("10_8") >= 0||usragnt.toLowerCase().indexOf("10_10") >= 0){
+        //'LucidaGrande-Bold', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif
+        document.getElementById("one").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("two").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("three").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+        document.getElementById("four").style.fontFamily="LucidaGrande-Bold,Lucida Grande,Lucida Sans Unicode,sans-serif";
+    }
+</script>
+</div>
+</body>
+</html>
