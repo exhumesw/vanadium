@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D56EFEA4-935B-4396-A728-7DE138A17130</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vanadium</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD9D785338D5F1063639C6518D549CAFF526C35D</key>
+		<string>https://github.com/exhumesw/vanadium.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Vanadium.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD9D785338D5F1063639C6518D549CAFF526C35D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/exhumesw/vanadium.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD9D785338D5F1063639C6518D549CAFF526C35D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD9D785338D5F1063639C6518D549CAFF526C35D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Vanadium</string>
+		</dict>
+	</array>
+</dict>
+</plist>
